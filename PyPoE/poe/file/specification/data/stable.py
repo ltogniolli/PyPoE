@@ -6057,6 +6057,14 @@ specification = Specification({
                 name='Flag1',
                 type='bool',
             ),
+            Field(
+                name='Unknown1',
+                type='ref|list|int',
+            ),
+            Field(
+                name='Unknown2',
+                type='ref|list|int',
+            ),                        
         ),
     ),
     'DelveCraftingTags.dat': File(
@@ -19290,19 +19298,12 @@ specification = Specification({
                 name='SocketIndices',
                 type='ref|list|int',
             ),
-            Field(
-                name='Art',
-                type='ref|string',
-            ),
+
             Field(
                 name='TotalIndices',
                 type='int',
             ),
-            Field(
-                name='SoundEffectsKey',
-                type='ref|out',
-                key='SoundEffects.dat',
-            ),
+
         ),
     ),
     'PassiveTreeExpansionSkills.dat': File(

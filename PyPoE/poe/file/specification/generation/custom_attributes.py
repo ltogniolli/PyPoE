@@ -10,6 +10,9 @@ custom_attributes = {
         'ModDomainsKey': CustomizedField(
             enum='MOD_DOMAIN',
         ),
+        'SiteVisibility': CustomizedField(
+            enum='BaseItemTypeVisibility',
+        ),        
     },
     'BestiaryRecipeComponent.dat': {
         'RarityKey': CustomizedField(
@@ -21,6 +24,11 @@ custom_attributes = {
             enum='BETRAYAL_UPGRADE_SLOTS',
         ),
     },
+    'CraftingBenchOptions.dat': {
+        'CraftingBenchCustomAction': CustomizedField(
+            enum='CraftingBenchCustomActions',
+        ),
+    },    
     'DelveUpgrades.dat': {
         'DelveUpgradeTypeKey': CustomizedField(
             enum='DELVE_UPGRADE_TYPE',
@@ -30,6 +38,9 @@ custom_attributes = {
         'StatInterpolationTypesKeys': CustomizedField(
             enum='STAT_INTERPOLATION_TYPES',
         ),
+        'CooldownBypassType': CustomizedField(
+            enum='CooldownBypassTypes',
+        ),        
     },
     'HarvestObjects.dat': {
         'ObjectType': CustomizedField(

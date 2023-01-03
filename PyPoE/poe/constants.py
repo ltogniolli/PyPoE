@@ -87,6 +87,8 @@ __all__ = [
     'MOD_SELL_PRICES',
 
     'PASSIVE_TYPES',
+    'CraftingBenchCustomActions',
+    'CooldownBypassTypes',
 ]
 
 MOD_MAX_STATS = 6
@@ -807,9 +809,9 @@ class MOD_GENERATION_TYPE(IntEnumOverride):
     SCOURGE_DETRIMENT = 25
     SCOURGE_GIMMICK = 26
     # 27 is unused.
-    ARCHNEMESIS = 28
-    SEARING_EXARCH_IMPLICIT = 29
-    EATER_OF_WORLDS_IMPLICIT = 30
+    SEARING_EXARCH_IMPLICIT = 28
+    EATER_OF_WORLDS_IMPLICIT = 29
+    ARCHNEMESIS = 30
 
 
 class WORDLISTS(IntEnumOverride):
@@ -940,6 +942,29 @@ class PASSIVE_TYPES(IntEnumOverride):
     REGULAR2 = 2
     NOTABLE = 3
     KEYSTONE = 4
+    
+class CraftingBenchCustomActions(IntEnumOverride):
+    REMOVE_CRAFTED_MODS = 0
+    REMOVE_ENCHANT_MODS = 1
+    UNKNOWN_2 = 2
+    UNKNOWN_3 = 3
+    UNKNOWN_4 = 4
+    UNKNOWN_5 = 5
+    UNKNOWN_6 = 6
+    UNKNOWN_7 = 7
+
+
+class CooldownBypassTypes(IntEnumOverride):
+    EXPEND_ENDURANCE_CHARGE = 1
+    EXPEND_FRENZY_CHARGE = 2
+    EXPEND_POWER_CHARGE = 3
+    NONE = 4
+
+
+class BaseItemTypeVisibility(IntEnumOverride):
+    HIDDEN = 0
+    VISIBLE = 1
+    UNKNOWN_2 = 2    
 
 # =============================================================================
 # Functions
