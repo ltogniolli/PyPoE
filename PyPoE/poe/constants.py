@@ -729,6 +729,7 @@ class MOD_DOMAIN(IntEnumOverride):
     MEMORY_LINES = 31
     SANCTUM_RELIC = 32
     MODS_DISALLOWED = 33 # Used in BaseItemTypes.dat, not Mods.dat.
+    CRUCIBLE = 34 # ?
 
     # legacy names
     MASTER = CRAFTED
@@ -812,6 +813,8 @@ class MOD_GENERATION_TYPE(IntEnumOverride):
     SEARING_EXARCH_IMPLICIT = 28
     EATER_OF_WORLDS_IMPLICIT = 29
     ARCHNEMESIS = 30
+    CRUCIBLE_1 = 31 #?
+    CRUCIBLE_2 = 32 #?
 
 
 class WORDLISTS(IntEnumOverride):

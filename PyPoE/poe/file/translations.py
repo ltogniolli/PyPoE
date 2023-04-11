@@ -2524,4 +2524,8 @@ TranslationQuantifier(
     type=TranslationQuantifier.QuantifierTypes.STRING,
 )
 
+TranslationQuantifier(
+    id='weapon_tree_unique_base_type_name',
+)
+
 TranslationQuantifierHandler.init()
